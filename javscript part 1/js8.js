@@ -1,22 +1,28 @@
-// string Methods
+// typeodf operator
+// data types
+// string "harshit"
+// number 2,4,5,6
+// boolean
+// undefined
+// null
+// Bigint
+// Symbol
 
-// trim()
-// toUpperCase()
-// toLowerCase()
-// SLice();
+let age=22;
+console.log(typeof(age))
 
-let name1=" Prathmesh ";
-console.log(name1.length)
-name1=name1.trim();
-console.log(name1.length)
+// covvert number to string
+// age=age+" ";
+console.log(typeof (age+ ""));
 
-console.log(name1)
-let ans=name1.toUpperCase();
-console.log(ans);
+let s="20";
+n=Number(s);
+console.log(typeof(n))
 
-let ans2=name1.toLowerCase();
-console.log(ans2);
+// convert string to number
 
-
-console.log(name1.slice(2,6))
-
+let myStr=+"22";
+console.log(typeof(myStr))
+let val=23;
+val=String(val);
+console.log(typeof val)
