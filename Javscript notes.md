@@ -85,3 +85,81 @@ console.log(about);
 
 console.log(`My name is ${firstname} and my age is ${age}`);
 ```
+
+<!-- undefind || null || Big Int -->
+
+when we create varible(let,var) without intializing value then it is undefined
+let firstname;
+console.log( typeof firstname)
+
+<!-- null -->
+
+let myvar=null;
+console.log( myvar);
+
+console.log(typeof null)//it is bug in js it give object but it is null
+
+<!-- bigint -->
+
+we can't perforom operation with big int + not value only bigint + bigint
+
+console.log(Number.MAX_SAFE_INTEGER)//it gives maxmimum value we can store in variblae
+
+let var1=BigInt(1212);//both are bigint
+let var2=2323n;//both are bigint
+
+// booleans & comparison operator
+Booleans
+true or false
+
+// == vs ===
+
+console.log(num1 == num2) //== does not check data types it check only value
+but === check datatypes and value
+
+// != vs !==
+
+let n1=13;
+let n2='13';
+console.log(n1 != n2);
+console.log(n1 !== n2);//!== it check datatypes and value but != check only values
+
+<!-- falsy values -->
+
+false
+""
+null
+undefined
+0
+nan
+document.all
+
+let firstname="";
+let firstname=false;
+let firstname=0;
+let firstname = null;
+let firstname=undefined;
+these are the falsy value
+
+<!-- Truthy value except falsey values   -->
+
+negativie value also truthy values
+
+<!-- if else -->
+
+let age =4;
+if(age>=5){
+console.log(drink='coffee');
+}
+else{
+console.log(drink='milk');
+}
+
+ <!-- ternary operator / conditional operator -->
+
+let age = 3;
+let drink=age>=5?"coffee":"chai" //ternary operator
+console.log(drink);
+<!-- 
+let userguess = prompt("guess a number"); 
+//promt takes input in string for changing string to number just add + before prompt. -->
