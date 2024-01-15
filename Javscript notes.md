@@ -64,12 +64,12 @@ Symbol
 
 // convert number to string
 age=age+" ";
-or
+
+// convert string to number
 String n=20;
 n=number(n);
 console.log(typeof(n))
 
-// convert string to number
 let myStr=+"22";
 
 ```

@@ -45,9 +45,6 @@ let total1 =(num*(num+1))/2;
 
 
 
-
-
-
 // for printing sum of number
 
 // let sum=0;
